@@ -13,21 +13,19 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://zypher.corespeed.io"),
+  metadataBase: new URL("https://docs.corespeed.io"),
   title: {
-    default: "Zypher Agent Framework",
-    template: "%s | Zypher Agent Framework",
+    default: "CoreSpeed Documentation",
+    template: "%s | CoreSpeed",
   },
-  description:
-    "A minimal yet powerful framework for creating AI agents with full control over tools, providers, and execution flow.",
+  description: "Documentation for CoreSpeed",
   keywords: [
-    "AI agents",
-    "agent framework",
-    "agent development",
-    "agent tools",
-    "agent providers",
-    "agent execution",
-    "agent development",
+    "CoreSpeed",
+    "CoreSpeed Documentation",
+    "CoreSpeed API",
+    "CoreSpeed SDK",
+    "CoreSpeed Library",
+    "CoreSpeed Framework",
   ],
   authors: [{ name: "CoreSpeed Team" }],
   creator: "CoreSpeed",
@@ -46,22 +44,20 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://zypher.corespeed.io",
-    siteName: "Zypher Agent Framework",
-    title: "Zypher Agent Framework",
-    description:
-      "A minimal yet powerful framework for creating AI agents with full control over tools, providers, and execution flow.",
+    url: "https://docs.corespeed.io",
+    siteName: "CoreSpeed Documentation",
+    title: "CoreSpeed Documentation",
+    description: "Documentation for CoreSpeed",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Zypher Agent Framework",
-    description:
-      "A minimal yet powerful framework for creating AI agents with full control over tools, providers, and execution flow.",
+    title: "CoreSpeed Documentation",
+    description: "Documentation for CoreSpeed",
     creator: "@CoreSpeed_Inc",
   },
   category: "technology",
   alternates: {
-    canonical: "https://zypher.corespeed.io",
+    canonical: "https://docs.corespeed.io",
   },
 };
 export default function Layout({ children }: LayoutProps<"/">) {
