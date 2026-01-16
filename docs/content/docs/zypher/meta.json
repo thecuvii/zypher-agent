@@ -1,6 +1,6 @@
 {
   "root": true,
-  "title": "Documentation",
+  "title": "Zypher SDK",
   "description": "Documentation for Zypher Agent framework",
   "pages": [
     "---Get Started---",
