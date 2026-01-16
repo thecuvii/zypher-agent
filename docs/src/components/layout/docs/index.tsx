@@ -137,7 +137,7 @@ export function DocsLayout({
           {viewport}
         </SidebarContent>
         <SidebarDrawer>
-          <div className="gap-3 py-2 border-b border-outline-low border-s">
+          <div className="gap-3 py-2 border-outline-low border-s">
             <div className="flex text-text-high items-center pl-2">
               <SidebarTrigger
                 className={cn(

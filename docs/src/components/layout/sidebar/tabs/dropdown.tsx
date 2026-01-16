@@ -80,7 +80,7 @@ export function SidebarTabsDropdown({
                 item.props?.className,
               )}
             >
-              <div className="shrink-0 size-9 md:mb-auto md:size-5 empty:hidden">
+              <div className="shrink-0 size-9 bg-surface-s0 md:mb-auto md:size-5 empty:hidden">
                 {item.icon}
               </div>
               <div>
