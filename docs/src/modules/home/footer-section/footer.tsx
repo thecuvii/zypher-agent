@@ -30,7 +30,7 @@ export function FooterSection() {
           >
             <div className="py-5">
               <Link href="/">
-                <CoreSpeedLogo className="tablet:w-80 w-[226px]" />
+                <CoreSpeedLogo className="tablet:w-80 w-[226px] text-white" />
               </Link>
             </div>
 
