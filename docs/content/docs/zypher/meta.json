@@ -1,0 +1,13 @@
+{
+  "title": "Documentation",
+  "pages": [
+    "index",
+    "quick-start",
+    "core-concepts",
+    "---Random Title---",
+    "guides",
+    "examples",
+    "[Github](https://github.com/ruru-m07/ruru-ui/)"
+  ],
+  "root": true
+}

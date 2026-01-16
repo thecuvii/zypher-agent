@@ -29,6 +29,7 @@ export function getMDXComponents(components?: MDXComponents): MDXComponents {
       );
     },
     h1: (props) => {
+      if (!props.children) return null;
       return (
         <Heading
           render={<h1 className="mb-8 scroll-m-8 text-3xl" />}
