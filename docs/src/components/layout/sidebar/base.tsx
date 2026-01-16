@@ -250,12 +250,12 @@ export function SidebarSeparator(props: ComponentProps<"p">) {
     <p
       {...props}
       className={cn(
-        "inline-flex items-center gap-2 text-[11px] text-text-low mb-1.5 px-2 mt-6 empty:mb-0",
+        "inline-flex items-center gap-2 font-mono text-[11px] text-text-med mb-1.5 px-2 mt-6 empty:mb-0",
         depth === 0 && "first:mt-0",
         props.className,
       )}
     >
-      / {props.children}
+      /{props.children}
     </p>
   );
 }

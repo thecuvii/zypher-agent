@@ -1,5 +1,7 @@
 {
+  "root": true,
   "title": "Documentation",
+  "description": "Documentation for Zypher Agent framework",
   "pages": [
     "index",
     "quick-start",
@@ -8,6 +10,5 @@
     "guides",
     "examples",
     "[Github](https://github.com/ruru-m07/ruru-ui/)"
-  ],
-  "root": true
+  ]
 }
