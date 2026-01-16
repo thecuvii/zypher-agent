@@ -1,7 +1,7 @@
 import { createRelativeLink } from "fumadocs-ui/mdx";
 
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import {
   DocsBody,
   DocsDescription,
@@ -15,7 +15,7 @@ import { A } from "@/modules/mdx-components/a";
 export default async function Page(props: PageProps<"/docs/[[...slug]]">) {
   const params = await props.params;
   const page = source.getPage(params.slug);
-  if (!page) notFound();
+  if (!page) redirect("/docs/zypher");
 
   const MDXContent = page.data.body;
 
