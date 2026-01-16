@@ -1,6 +1,7 @@
 {
   "root": true,
   "title": "Zypher SDK",
+  "icon": "CoreSpeedSymbol",
   "description": "Documentation for Zypher Agent framework",
   "pages": [
     "---Get Started---",

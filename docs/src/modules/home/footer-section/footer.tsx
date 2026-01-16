@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { CoreSpeedIcon } from "@/components/icons/corespeed";
+import { CoreSpeedLogo } from "@/components/icons/corespeed";
 import { DiscordIcon } from "@/components/icons/discord";
 import { GithubIcon } from "@/components/icons/github";
 import { LinkedinIcon } from "@/components/icons/linkedin";
@@ -30,7 +30,7 @@ export function FooterSection() {
           >
             <div className="py-5">
               <Link href="/">
-                <CoreSpeedIcon className="tablet:w-80 w-[226px]" />
+                <CoreSpeedLogo className="tablet:w-80 w-[226px]" />
               </Link>
             </div>
 
