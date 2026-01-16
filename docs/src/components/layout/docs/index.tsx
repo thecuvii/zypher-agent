@@ -29,7 +29,6 @@ import {
   Sidebar,
   SidebarContent,
   SidebarDrawer,
-  SidebarItem,
   SidebarPageTree,
   SidebarTrigger,
   SidebarViewport,
@@ -130,13 +129,6 @@ export function DocsLayout({
               {nav.children}
             </div>
             <SidebarSearch />
-            <SidebarItem
-              href="https://jsr.io/@zypher/agent/doc"
-              className="flex items-center justify-between"
-            >
-              API Reference
-              <ArrowUpRight className="size-4" />
-            </SidebarItem>
             {tabs.length > 0 && tabMode === "auto" && (
               <SidebarTabsDropdown options={tabs} />
             )}

@@ -3,12 +3,13 @@
   "title": "Documentation",
   "description": "Documentation for Zypher Agent framework",
   "pages": [
+    "---Get Started---",
     "index",
     "quick-start",
     "core-concepts",
     "---Random Title---",
     "guides",
     "examples",
-    "[Github](https://github.com/ruru-m07/ruru-ui/)"
+    "[API Reference](https://jsr.io/@zypher/agent/doc)"
   ]
 }

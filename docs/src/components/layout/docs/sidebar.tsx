@@ -10,7 +10,7 @@ import { createLinkItemRenderer } from "../sidebar/link-item";
 import { createPageTreeRenderer } from "../sidebar/page-tree";
 
 const itemVariants = cva(
-  "relative flex flex-row tracking-[-0.02em] cursor-pointer text-[13px] border-b broder-outline-low items-center gap-2 leading-[140%] px-4 py-3 text-start text-text-high font-mono wrap-anywhere [&_svg]:size-4 [&_svg]:shrink-0",
+  "relative flex flex-row tracking-[-0.02em] cursor-pointer text-[13px] items-center gap-2 leading-[140%] px-4 py-3 text-start text-text-high font-mono wrap-anywhere [&_svg]:size-4 [&_svg]:shrink-0",
   {
     variants: {
       variant: {
