@@ -137,8 +137,8 @@ export function DocsLayout({
           {viewport}
         </SidebarContent>
         <SidebarDrawer>
-          <div className="h-(--fd-header-height) gap-3 pl-2 py-2 border-b border-outline-low border-s">
-            <div className="flex text-text-high items-center">
+          <div className="gap-3 py-2 border-b border-outline-low border-s">
+            <div className="flex text-text-high items-center pl-2">
               <SidebarTrigger
                 className={cn(
                   buttonVariants({
@@ -151,7 +151,9 @@ export function DocsLayout({
                 <Menu />
               </SidebarTrigger>
             </div>
-            {tabs.length > 0 && <SidebarTabsDropdown options={tabs} />}
+            {tabs.length > 0 && (
+              <SidebarTabsDropdown className="w-full my-3" options={tabs} />
+            )}
             {banner}
           </div>
           {viewport}
