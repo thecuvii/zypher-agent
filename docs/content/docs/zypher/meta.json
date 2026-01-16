@@ -7,9 +7,10 @@
     "index",
     "quick-start",
     "core-concepts",
-    "---Random Title---",
+    "---Usage---",
     "guides",
     "examples",
-    "[API Reference](https://jsr.io/@zypher/agent/doc)"
+    "---[Camera]Random Title---",
+    "[CodeXml][API Reference](https://jsr.io/@zypher/agent/doc)"
   ]
 }
